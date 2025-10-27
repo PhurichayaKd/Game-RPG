@@ -1,0 +1,907 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.28f1 (f336aca0cab5) revision 15939244'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit CoreSingleLanguage' Language: 'th' Physical Memory: 16105 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.28f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/asus/RPG
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+13025
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/asus/RPG
+C:/Users/asus/RPG
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [26228]  Target information:
+
+Player connection [26228]  * "[IP] 172.20.10.4 [Port] 0 [Flags] 2 [Guid] 2252958799 [EditorId] 2252958799 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-JLDE18AG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [26228] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [26228] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.28f1 (f336aca0cab5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/asus/RPG/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   32.0.15.6607
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003448 seconds.
+- Loaded All Assemblies, in  0.354 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.283 seconds
+Domain Reload Profiling: 635ms
+	BeginReloadAssembly (114ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (143ms)
+		LoadAssemblies (111ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (140ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (125ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (283ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (241ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (153ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.901 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.718 seconds
+Domain Reload Profiling: 1615ms
+	BeginReloadAssembly (389ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (432ms)
+		LoadAssemblies (300ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (222ms)
+			TypeCache.Refresh (161ms)
+				TypeCache.ScanAssembly (146ms)
+			BuildScriptInfoCaches (49ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (718ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (487ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (347ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 202 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5938 unused Assets / (4.2 MB). Loaded Objects now: 6710.
+Memory consumption went from 185.0 MB to 180.8 MB.
+Total: 7.903400 ms (FindLiveObjects: 0.646600 ms CreateObjectMapping: 0.551700 ms MarkObjects: 4.558500 ms  DeleteObjects: 2.145300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 184916.425923 seconds.
+  path: Assets/Dungeon/URP/Prefabs/Environment/Floor dust/NGF_Env_Floor_dust_3.prefab
+  artifactKey: Guid(47c952ccd0ecd2f4180a38df5cb9eaeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/URP/Prefabs/Environment/Floor dust/NGF_Env_Floor_dust_3.prefab using Guid(47c952ccd0ecd2f4180a38df5cb9eaeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5377cb9e750899689e33c2909c21b4a3') in 0.5298892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.566894 seconds.
+  path: Assets/Dungeon/URP/Prefabs/Environment/Stairs/NGF_Env_Stairs_03.prefab
+  artifactKey: Guid(9d715df16b5adca4a9da1abbcc881487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/URP/Prefabs/Environment/Stairs/NGF_Env_Stairs_03.prefab using Guid(9d715df16b5adca4a9da1abbcc881487) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa01322e2624168e2b429bec8fc0be5a') in 0.0313146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Dungeon/URP/Prefabs/Environment/Stairs/NGF_Env_Stairs_half_01.prefab
+  artifactKey: Guid(52924a44a937ca04aa445a40707080c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/URP/Prefabs/Environment/Stairs/NGF_Env_Stairs_half_01.prefab using Guid(52924a44a937ca04aa445a40707080c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '554217e69bc9f54141628dd54e9e9953') in 0.0259734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.065680 seconds.
+  path: Assets/Dungeon/URP/Prefabs/Environment/Wooden boards and bars/NGF_Env_Board_03.prefab
+  artifactKey: Guid(7400ece660edcbc4f813ba35b756948a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/URP/Prefabs/Environment/Wooden boards and bars/NGF_Env_Board_03.prefab using Guid(7400ece660edcbc4f813ba35b756948a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aefc68f4e87979b7d62305c539c3ca7e') in 0.0244053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Dungeon/URP/Prefabs/Environment/Wooden boards and bars/NGF_Env_Thin_board_04.prefab
+  artifactKey: Guid(e47a49ecd33173f468823dda1533378c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/URP/Prefabs/Environment/Wooden boards and bars/NGF_Env_Thin_board_04.prefab using Guid(e47a49ecd33173f468823dda1533378c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd76cb1ca328ee7bb86f05041c2fbfd79') in 0.0219269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Dungeon/URP/Prefabs/Environment/Wooden boards and bars/NGF_Env_Thin_long_board_02.prefab
+  artifactKey: Guid(660f43c4220b887479a8696ed444870c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/URP/Prefabs/Environment/Wooden boards and bars/NGF_Env_Thin_long_board_02.prefab using Guid(660f43c4220b887479a8696ed444870c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '400d3b2e79e286ac5a3a49c9fbc8f02d') in 0.0240791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Dungeon/URP/Prefabs/Environment/Wooden boards and bars/NGF_Env_Thin_board_03.prefab
+  artifactKey: Guid(6e5f70e149e14294f9837f275ce4b831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/URP/Prefabs/Environment/Wooden boards and bars/NGF_Env_Thin_board_03.prefab using Guid(6e5f70e149e14294f9837f275ce4b831) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95b45f0ca3a03b076cb1ceda0e671063') in 0.0211334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Dungeon/URP/Prefabs/Environment/Wooden boards and bars/NGF_Env_Wooden_bar_small_01.prefab
+  artifactKey: Guid(40bb3c50a3c317c4da5b79c9294eced4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/URP/Prefabs/Environment/Wooden boards and bars/NGF_Env_Wooden_bar_small_01.prefab using Guid(40bb3c50a3c317c4da5b79c9294eced4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac7000759c2ae95e4c12440fee47acfe') in 0.0261621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Dungeon/URP/Prefabs/Environment/Wooden boards and bars/NGF_Env_Wooden_bar_small_03.prefab
+  artifactKey: Guid(7a5a36087377c054bb502d8950428b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/URP/Prefabs/Environment/Wooden boards and bars/NGF_Env_Wooden_bar_small_03.prefab using Guid(7a5a36087377c054bb502d8950428b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79272bc892bf78c9264397134e945c15') in 0.023432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Dungeon/URP/Prefabs/Environment/Wooden boards and bars/NGF_Env_Thin_board_01.prefab
+  artifactKey: Guid(0e90e1466188e1942bad6a8c1d39052e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/URP/Prefabs/Environment/Wooden boards and bars/NGF_Env_Thin_board_01.prefab using Guid(0e90e1466188e1942bad6a8c1d39052e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2fbee52abf7faa6bc733011f0fbc5a3') in 0.0218226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Dungeon/URP/Prefabs/Environment/Wooden boards and bars/NGF_Env_Long_board_04.prefab
+  artifactKey: Guid(380c4dcfcd39e9146966455d79a9ee56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/URP/Prefabs/Environment/Wooden boards and bars/NGF_Env_Long_board_04.prefab using Guid(380c4dcfcd39e9146966455d79a9ee56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c621a98f4f7f36b4e6a1d7bf88a80f58') in 0.0204452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.273774 seconds.
+  path: Assets/Dungeon/URP/Prefabs/Environment/Wall/NGF_Env_Wall_03.prefab
+  artifactKey: Guid(4d304a64e66aa0049a9364f2de9fda61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/URP/Prefabs/Environment/Wall/NGF_Env_Wall_03.prefab using Guid(4d304a64e66aa0049a9364f2de9fda61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19f88fc6ebdc31f6b9f86dc1b92d67f9') in 0.0182525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Dungeon/URP/Prefabs/Environment/Wall/NGF_Env_Wall_on_the_foundation_07.prefab
+  artifactKey: Guid(bba72b3d02d1db948bf58b9f21c5d3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/URP/Prefabs/Environment/Wall/NGF_Env_Wall_on_the_foundation_07.prefab using Guid(bba72b3d02d1db948bf58b9f21c5d3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7dc9653a056f1093df7f0b2df238f0db') in 0.0269997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Dungeon/URP/Prefabs/Environment/Wall/NGF_Env_Wall_on_the_foundation_08.prefab
+  artifactKey: Guid(4bc29555f91fc804b8f1cb0c05c253dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/URP/Prefabs/Environment/Wall/NGF_Env_Wall_on_the_foundation_08.prefab using Guid(4bc29555f91fc804b8f1cb0c05c253dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1bfb67d241c67a5dd7b6ea0adf126a45') in 0.0239569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Dungeon/URP/Prefabs/Environment/Wall/NGF_Env_Wall_05.prefab
+  artifactKey: Guid(76c122b3b9ccc61499fe97f7a2b6cc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/URP/Prefabs/Environment/Wall/NGF_Env_Wall_05.prefab using Guid(76c122b3b9ccc61499fe97f7a2b6cc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1eec59f9af3436b9c47e0f633a930f42') in 0.022897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Dungeon/URP/Prefabs/Environment/Wall/NGF_Env_Wall_06.prefab
+  artifactKey: Guid(0f76caa924570fc41a0f920331ff50c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/URP/Prefabs/Environment/Wall/NGF_Env_Wall_06.prefab using Guid(0f76caa924570fc41a0f920331ff50c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14b924321899091de97950b78e84ed1d') in 0.0231353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Dungeon/URP/Prefabs/Environment/Wall/NGF_Env_Wall_on_the_foundation_12.prefab
+  artifactKey: Guid(a69fd4c71da5e9c4e8c4ce12ce21482e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/URP/Prefabs/Environment/Wall/NGF_Env_Wall_on_the_foundation_12.prefab using Guid(a69fd4c71da5e9c4e8c4ce12ce21482e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fcb6ccc7474fbfc9835bd204a157e057') in 0.0230603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Dungeon/URP/Prefabs/Environment/Wall/NGF_Env_Wall_11.prefab
+  artifactKey: Guid(8ee2d975826d40a41a28cb5265a0a1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/URP/Prefabs/Environment/Wall/NGF_Env_Wall_11.prefab using Guid(8ee2d975826d40a41a28cb5265a0a1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '032d70d7207f76de7017ba64d5060370') in 0.026819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Dungeon/URP/Prefabs/Environment/Wall/NGF_Env_Wall_on_the_foundation_10.prefab
+  artifactKey: Guid(3fe3b5b8fe30ac04aa0450b5a9b083cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/URP/Prefabs/Environment/Wall/NGF_Env_Wall_on_the_foundation_10.prefab using Guid(3fe3b5b8fe30ac04aa0450b5a9b083cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2988f64005d7fd00a762c6edf744cc48') in 0.0237207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 3382.377470 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Brick crack/NGF_Env_Brick_crack_02.prefab
+  artifactKey: Guid(fad031f471bf732479f42b2e2e71c3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Brick crack/NGF_Env_Brick_crack_02.prefab using Guid(fad031f471bf732479f42b2e2e71c3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '109f8ad2da14a304a8119ed6884691ee') in 0.0492579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Brick crack/NGF_Env_Brick_crack_03.prefab
+  artifactKey: Guid(e60bc88b605c67e47b7d07ba1fdec547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Brick crack/NGF_Env_Brick_crack_03.prefab using Guid(e60bc88b605c67e47b7d07ba1fdec547) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40da82754e9390a8774167493eef37b8') in 0.0258598 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Brick crack/NGF_Env_Brick_crack_09.prefab
+  artifactKey: Guid(f1df137fba7774a4882d174d4c824997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Brick crack/NGF_Env_Brick_crack_09.prefab using Guid(f1df137fba7774a4882d174d4c824997) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e713ac3b741887769dca85f4d78becf7') in 0.0277069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Brick crack/NGF_Env_Brick_crack_20.prefab
+  artifactKey: Guid(c59fc3b8956110440b54d3105275c6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Brick crack/NGF_Env_Brick_crack_20.prefab using Guid(c59fc3b8956110440b54d3105275c6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc6e746b095d45d387224e5f04d14a74') in 0.0269694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Brick crack/NGF_Env_Brick_crack_19.prefab
+  artifactKey: Guid(fb3451f70bb269e4bbd98854a00c5b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Brick crack/NGF_Env_Brick_crack_19.prefab using Guid(fb3451f70bb269e4bbd98854a00c5b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c5f3e0b77ea1d7e78cee62e2415c8ea') in 0.026405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Brick crack/NGF_Env_Brick_crack_13.prefab
+  artifactKey: Guid(f9c6344074126464f9341f6d3a7ec512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Brick crack/NGF_Env_Brick_crack_13.prefab using Guid(f9c6344074126464f9341f6d3a7ec512) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6d3a80dd50f0b428759c59a287fc8b0') in 0.0313372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Brick crack/NGF_Env_Brick_crack_10.prefab
+  artifactKey: Guid(140c090326ce9a3479a15b4f3df2c870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Brick crack/NGF_Env_Brick_crack_10.prefab using Guid(140c090326ce9a3479a15b4f3df2c870) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65c5a325b5b46a223eab5563756e7f5b') in 0.0256437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Brick crack/NGF_Env_Brick_crack_18.prefab
+  artifactKey: Guid(9ea5dbd6460b71647aeead53596b547c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Brick crack/NGF_Env_Brick_crack_18.prefab using Guid(9ea5dbd6460b71647aeead53596b547c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e242107ad1d79c016f687c2e1e21e2a9') in 0.0271466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Brick crack/NGF_Env_Brick_crack_05.prefab
+  artifactKey: Guid(0d60f57067fc1c24c98ba4ad6c113aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Brick crack/NGF_Env_Brick_crack_05.prefab using Guid(0d60f57067fc1c24c98ba4ad6c113aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b065cf86149697919d559601f392e5e') in 0.0287124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Brick crack/NGF_Env_Brick_crack_11.prefab
+  artifactKey: Guid(cca8f873a80013e489fae776ba41566f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Brick crack/NGF_Env_Brick_crack_11.prefab using Guid(cca8f873a80013e489fae776ba41566f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c242a0c1e89448433d03072fd19dd74') in 0.0242791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.191327 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Wooden boards and bars/NGF_Env_Board_02.prefab
+  artifactKey: Guid(d00e29c5797917748b18f1f2c7b5485b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Wooden boards and bars/NGF_Env_Board_02.prefab using Guid(d00e29c5797917748b18f1f2c7b5485b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30e1e50fab8be8d716cbf98ba353bea5') in 0.0250352 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Wooden boards and bars/NGF_Env_Long_board_01.prefab
+  artifactKey: Guid(f0606fe15a714544ab8e36289907ea53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Wooden boards and bars/NGF_Env_Long_board_01.prefab using Guid(f0606fe15a714544ab8e36289907ea53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c1c83e27a76cb26ae4890e8f9ad6e07') in 0.0251317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Wooden boards and bars/NGF_Env_Thin_board_01.prefab
+  artifactKey: Guid(a892e78afb6c70648b7e7f1c6fbe065f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Wooden boards and bars/NGF_Env_Thin_board_01.prefab using Guid(a892e78afb6c70648b7e7f1c6fbe065f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e4c422323144ba4e0c318251e63e0ef') in 0.028748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Wooden boards and bars/NGF_Env_Wooden_bar_04.prefab
+  artifactKey: Guid(4ac0456bf1c2d984389e8e5b3db081ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Wooden boards and bars/NGF_Env_Wooden_bar_04.prefab using Guid(4ac0456bf1c2d984389e8e5b3db081ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb627475039be908012767abc3a98f2b') in 0.0241667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Wooden boards and bars/NGF_Env_Thin_long_board_01.prefab
+  artifactKey: Guid(5b90255ab60e1d74cb692edb1be04c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Wooden boards and bars/NGF_Env_Thin_long_board_01.prefab using Guid(5b90255ab60e1d74cb692edb1be04c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be979a3aea504ef1644ac267299c8b14') in 0.0248595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Wooden boards and bars/NGF_Env_Wooden_bar_small_03.prefab
+  artifactKey: Guid(8519a9b237763bf4b90c9711df2ee75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Wooden boards and bars/NGF_Env_Wooden_bar_small_03.prefab using Guid(8519a9b237763bf4b90c9711df2ee75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb1175f148624f430d9dda72184ee3ed') in 0.0239507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Wooden boards and bars/NGF_Env_Wooden_bar_small_01.prefab
+  artifactKey: Guid(287ee728edcc5b845a5026ba0ff606b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Wooden boards and bars/NGF_Env_Wooden_bar_small_01.prefab using Guid(287ee728edcc5b845a5026ba0ff606b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0bf173704a41dff3228eade8c18d61f7') in 0.0246399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Wooden boards and bars/NGF_Env_Thin_long_board_04.prefab
+  artifactKey: Guid(6bc1e97be2eec10448e94311e200031c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Wooden boards and bars/NGF_Env_Thin_long_board_04.prefab using Guid(6bc1e97be2eec10448e94311e200031c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f879450efec4fe412ce70449d1249187') in 0.024159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Wooden boards and bars/NGF_Env_Wooden_bar_small_02.prefab
+  artifactKey: Guid(859a267f7a9700e4ca97a10d8b616a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Wooden boards and bars/NGF_Env_Wooden_bar_small_02.prefab using Guid(859a267f7a9700e4ca97a10d8b616a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41771492561abd8a37b5a53081898b99') in 0.0228906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Wall/NGF_Env_Wall_01.prefab
+  artifactKey: Guid(d26f88dc69011c345a560cb202f1913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Wall/NGF_Env_Wall_01.prefab using Guid(d26f88dc69011c345a560cb202f1913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ffd38abccec12f3faf4b4a8e81dc998f') in 0.0205662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Wall/NGF_Env_Wall_03.prefab
+  artifactKey: Guid(50dd3495e58571842a560d95b53487ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Wall/NGF_Env_Wall_03.prefab using Guid(50dd3495e58571842a560d95b53487ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1b3324ed3f417c0bee70622c441e829') in 0.0229506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Wall/NGF_Env_Wall_06.prefab
+  artifactKey: Guid(e112f6ec3adf41b4bb076ce326757749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Wall/NGF_Env_Wall_06.prefab using Guid(e112f6ec3adf41b4bb076ce326757749) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07016c741c479ebc91c6a5cea90d2158') in 0.0248621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Wall/NGF_Env_Wall_on_the_foundation_03.prefab
+  artifactKey: Guid(a71ca04515202754cb68db99164ed47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Wall/NGF_Env_Wall_on_the_foundation_03.prefab using Guid(a71ca04515202754cb68db99164ed47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '096eaf130c23d58dd5b2956836470efc') in 0.027817 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Wall/NGF_Env_Wall_on_the_foundation_05.prefab
+  artifactKey: Guid(5f35b3163859c8b41b4f4d17ee35a07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Wall/NGF_Env_Wall_on_the_foundation_05.prefab using Guid(5f35b3163859c8b41b4f4d17ee35a07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8579a578da82c1c1804cf29cc1cc15a') in 0.0272759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Wall/NGF_Env_Wall_on_the_foundation_11 1.prefab
+  artifactKey: Guid(2a479735fd987f04f84f93691a7c6d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Wall/NGF_Env_Wall_on_the_foundation_11 1.prefab using Guid(2a479735fd987f04f84f93691a7c6d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b980111bf42a3a996500049cc14d624f') in 0.0265929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Wall/NGF_Env_Wall_on_the_foundation_06.prefab
+  artifactKey: Guid(d5e6f066bae19f745ad9f4c13fb46a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Wall/NGF_Env_Wall_on_the_foundation_06.prefab using Guid(d5e6f066bae19f745ad9f4c13fb46a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d97f51123bfb25fcac21d2a2881d2e5') in 0.023646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Wall/NGF_Env_Wall_04.prefab
+  artifactKey: Guid(3d5d2437f37060442a9d05736bef62e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Wall/NGF_Env_Wall_04.prefab using Guid(3d5d2437f37060442a9d05736bef62e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70d30a0019efe719f2de5e9c70082939') in 0.0293593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Wall/NGF_Env_Wall_05.prefab
+  artifactKey: Guid(f5cb83039e167a441bc39f94f351f7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Wall/NGF_Env_Wall_05.prefab using Guid(f5cb83039e167a441bc39f94f351f7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18f7d182d00e878b544a51954d25636e') in 0.0293102 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Wall/NGF_Env_Wall_on_the_foundation_10.prefab
+  artifactKey: Guid(16f9827dfa075a946b3569f3d733c865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Wall/NGF_Env_Wall_on_the_foundation_10.prefab using Guid(16f9827dfa075a946b3569f3d733c865) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9498ebbbfa48fc0c227cf5782a209b52') in 0.0263374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Wooden boards and bars/NGF_Env_Long_board_03.prefab
+  artifactKey: Guid(ed589219826f3b344a2f0669110c0e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Wooden boards and bars/NGF_Env_Long_board_03.prefab using Guid(ed589219826f3b344a2f0669110c0e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8cd0b7a6f34c3b144ad232630e309c5') in 0.0279707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Wooden boards and bars/NGF_Env_Wooden_bar_03.prefab
+  artifactKey: Guid(91f32566f3e35a94d8316de6a754c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Wooden boards and bars/NGF_Env_Wooden_bar_03.prefab using Guid(91f32566f3e35a94d8316de6a754c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ffa99d95ec342a43c905343b3b2ec75') in 0.0250176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Wall/NGF_Env_Wall_on_the_foundation_04.prefab
+  artifactKey: Guid(85ede4f98c7894d4898c8dd8b153b084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Wall/NGF_Env_Wall_on_the_foundation_04.prefab using Guid(85ede4f98c7894d4898c8dd8b153b084) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a15b56a65b8ebc29e9fde4e479d6be12') in 0.0275314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Wall/NGF_Env_Wall_on_the_foundation_02.prefab
+  artifactKey: Guid(bd02ac09da7c9df4e865767ed8ff38a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Wall/NGF_Env_Wall_on_the_foundation_02.prefab using Guid(bd02ac09da7c9df4e865767ed8ff38a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af6984f1b28585b49a14f79eb76c6923') in 0.0257884 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Wooden boards and bars/NGF_Env_Board_04.prefab
+  artifactKey: Guid(1155d3e570309ea4d84ade6720551cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Wooden boards and bars/NGF_Env_Board_04.prefab using Guid(1155d3e570309ea4d84ade6720551cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d8fce6bfce1552a1f54037228293e02') in 0.0294548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.621050 seconds.
+  path: Assets/Dungeon/URP/Prefabs/Environment/Stone corner/NGF_Env_Stone_corner_02.prefab
+  artifactKey: Guid(588b1b3678db1d446a8043e6966b0267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/URP/Prefabs/Environment/Stone corner/NGF_Env_Stone_corner_02.prefab using Guid(588b1b3678db1d446a8043e6966b0267) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f54938c3148ac58dc1d99995d6e7883') in 0.0334999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Dungeon/URP/Prefabs/Environment/Stone corner/NGF_Env_Stone_corner_04.prefab
+  artifactKey: Guid(790b83f1b644969458248ec5070611c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/URP/Prefabs/Environment/Stone corner/NGF_Env_Stone_corner_04.prefab using Guid(790b83f1b644969458248ec5070611c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96164cc858b1f5bf0ff37090e21b8a27') in 0.0305824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.967 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.912 seconds
+Domain Reload Profiling: 1879ms
+	BeginReloadAssembly (380ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (58ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (126ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (496ms)
+		LoadAssemblies (424ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (195ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (170ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (913ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (569ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (417ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5935 unused Assets / (4.2 MB). Loaded Objects now: 6757.
+Memory consumption went from 172.6 MB to 168.3 MB.
+Total: 10.393900 ms (FindLiveObjects: 0.644000 ms CreateObjectMapping: 0.621300 ms MarkObjects: 5.688800 ms  DeleteObjects: 3.438500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.688 seconds
+Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.815 seconds
+Domain Reload Profiling: 1504ms
+	BeginReloadAssembly (198ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (417ms)
+		LoadAssemblies (334ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (176ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (152ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (816ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (511ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (382ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5934 unused Assets / (3.9 MB). Loaded Objects now: 6759.
+Memory consumption went from 170.7 MB to 166.8 MB.
+Total: 11.508200 ms (FindLiveObjects: 0.756600 ms CreateObjectMapping: 0.755800 ms MarkObjects: 6.547500 ms  DeleteObjects: 3.447000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.674 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.809 seconds
+Domain Reload Profiling: 1482ms
+	BeginReloadAssembly (202ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (396ms)
+		LoadAssemblies (315ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (179ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (158ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (809ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (513ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (385ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5934 unused Assets / (4.1 MB). Loaded Objects now: 6761.
+Memory consumption went from 170.7 MB to 166.6 MB.
+Total: 10.702900 ms (FindLiveObjects: 0.882600 ms CreateObjectMapping: 0.803300 ms MarkObjects: 5.789400 ms  DeleteObjects: 3.224700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.673 seconds
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.775 seconds
+Domain Reload Profiling: 1446ms
+	BeginReloadAssembly (187ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (405ms)
+		LoadAssemblies (321ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (176ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (152ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (775ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (474ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (347ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 1.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5934 unused Assets / (4.2 MB). Loaded Objects now: 6763.
+Memory consumption went from 170.7 MB to 166.6 MB.
+Total: 10.587100 ms (FindLiveObjects: 0.976800 ms CreateObjectMapping: 1.024400 ms MarkObjects: 5.566500 ms  DeleteObjects: 3.016800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.678 seconds
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.775 seconds
+Domain Reload Profiling: 1452ms
+	BeginReloadAssembly (190ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (410ms)
+		LoadAssemblies (312ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (191ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (168ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (775ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (490ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (361ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5934 unused Assets / (5.0 MB). Loaded Objects now: 6765.
+Memory consumption went from 170.7 MB to 165.7 MB.
+Total: 9.734400 ms (FindLiveObjects: 0.658800 ms CreateObjectMapping: 0.764300 ms MarkObjects: 5.095800 ms  DeleteObjects: 3.213800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 507.705764 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Floor dust/NGF_Env_Floor_dust_2.prefab
+  artifactKey: Guid(42642c46f712105499efc96dbd43bd2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Floor dust/NGF_Env_Floor_dust_2.prefab using Guid(42642c46f712105499efc96dbd43bd2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7c7193b4625d9bf1bf40b1a01189092') in 0.6176478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Floor dust/NGF_Env_Floor_dust_6.prefab
+  artifactKey: Guid(61667759860bd994483e197f218f92a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Floor dust/NGF_Env_Floor_dust_6.prefab using Guid(61667759860bd994483e197f218f92a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9697d149d420a8b4e3f1766d9d24bd08') in 0.0283075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Floor dust/NGF_Env_Floor_dust_4.prefab
+  artifactKey: Guid(86b4db21abc485340958e27cdcb0f4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Floor dust/NGF_Env_Floor_dust_4.prefab using Guid(86b4db21abc485340958e27cdcb0f4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df54c170db697b2f4d5de2a33912cc9c') in 0.028932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Dungeon/Build-In/Prefabs/Environment/Floor dust/NGF_Env_Floor_dust_5.prefab
+  artifactKey: Guid(8b2da71ddd503fe46bf40862b7ee6752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/Build-In/Prefabs/Environment/Floor dust/NGF_Env_Floor_dust_5.prefab using Guid(8b2da71ddd503fe46bf40862b7ee6752) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86763c2f7f23a31d6267fe32c99ecda3') in 0.0323667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

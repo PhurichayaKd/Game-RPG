@@ -1,0 +1,510 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.28f1 (f336aca0cab5) revision 15939244'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit CoreSingleLanguage' Language: 'th' Physical Memory: 16105 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.28f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/asus/RPG
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+13025
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/asus/RPG
+C:/Users/asus/RPG
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [22000]  Target information:
+
+Player connection [22000]  * "[IP] 172.20.10.4 [Port] 0 [Flags] 2 [Guid] 1406293566 [EditorId] 1406293566 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-JLDE18AG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22000] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22000] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.28f1 (f336aca0cab5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/asus/RPG/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   32.0.15.6607
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004704 seconds.
+- Loaded All Assemblies, in  0.497 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.423 seconds
+Domain Reload Profiling: 917ms
+	BeginReloadAssembly (166ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (206ms)
+		LoadAssemblies (163ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (202ms)
+			TypeCache.Refresh (200ms)
+				TypeCache.ScanAssembly (182ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (423ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (363ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (8ms)
+			ProcessInitializeOnLoadAttributes (237ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.362 seconds
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.074 seconds
+Domain Reload Profiling: 2430ms
+	BeginReloadAssembly (569ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (679ms)
+		LoadAssemblies (489ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (317ms)
+			TypeCache.Refresh (233ms)
+				TypeCache.ScanAssembly (206ms)
+			BuildScriptInfoCaches (68ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1074ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (706ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (507ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 199 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5936 unused Assets / (5.2 MB). Loaded Objects now: 6704.
+Memory consumption went from 183.0 MB to 177.7 MB.
+Total: 15.910000 ms (FindLiveObjects: 0.903800 ms CreateObjectMapping: 1.580400 ms MarkObjects: 7.581800 ms  DeleteObjects: 5.842100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 181300.226654 seconds.
+  path: Assets/GhostCharacter_Free/Prefabs
+  artifactKey: Guid(4b6a0d72258224a0dac17e9c3b6269e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GhostCharacter_Free/Prefabs using Guid(4b6a0d72258224a0dac17e9c3b6269e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a33ed55ba41a80ac2a34fd51a21b214e') in 0.0078864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/GhostCharacter_Free/Materials/MaterialGhost.mat
+  artifactKey: Guid(d11e6205c7cc9470aacd9fde3100bfe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GhostCharacter_Free/Materials/MaterialGhost.mat using Guid(d11e6205c7cc9470aacd9fde3100bfe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aaf2fe0f402e037a181c26f5132608db') in 6.3057392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.046226 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR
+  artifactKey: Guid(94b1e900aefec62439815183ae70f1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR using Guid(94b1e900aefec62439815183ae70f1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cef091a7a56f538f37b0e2393ffcb527') in 0.001061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.138502 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR/BuiltIn&HDRP
+  artifactKey: Guid(c78a2018aca6d884fa636a55b988b216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR/BuiltIn&HDRP using Guid(c78a2018aca6d884fa636a55b988b216) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0febf92c88d39d6d9fa97ef9c8894140') in 0.0008087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.427544 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR/Mesh
+  artifactKey: Guid(6602bfd6ac46e8a4d85b9ee5debffb3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR/Mesh using Guid(6602bfd6ac46e8a4d85b9ee5debffb3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02192dcf8add5267dce822bc5c48102e') in 0.0006684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.099515 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR/Mesh/BuildingUtilityDeco
+  artifactKey: Guid(4d3ef22b5762e584a9ca25b2a98c4420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR/Mesh/BuildingUtilityDeco using Guid(4d3ef22b5762e584a9ca25b2a98c4420) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea2ce07c163a87ce9194832bf138ec91') in 0.0006587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058456 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR/Mesh/BuildingUtilityDeco/Bridge06.fbx
+  artifactKey: Guid(e0b1cb208724aa849ae1ef32982c0a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR/Mesh/BuildingUtilityDeco/Bridge06.fbx using Guid(e0b1cb208724aa849ae1ef32982c0a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5172af951ac65c446a072ed36a63fccd') in 0.1220633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR/Mesh/BuildingUtilityDeco/TreeStump01.fbx
+  artifactKey: Guid(915aaa2ce8316844298ccb571c2b4064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR/Mesh/BuildingUtilityDeco/TreeStump01.fbx using Guid(915aaa2ce8316844298ccb571c2b4064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76dca3bf38b60f1097757f5f08637915') in 0.0486556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR/Mesh/BuildingUtilityDeco/Stair01.fbx
+  artifactKey: Guid(63ea467277db18544b1d1bdaadf4a221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR/Mesh/BuildingUtilityDeco/Stair01.fbx using Guid(63ea467277db18544b1d1bdaadf4a221) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96bd56f7b7651fc4272dc0eb1b2b076f') in 0.0463348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR/Mesh/BuildingUtilityDeco/Portal01.fbx
+  artifactKey: Guid(f914ded4308c82f4695f7c971281d8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR/Mesh/BuildingUtilityDeco/Portal01.fbx using Guid(f914ded4308c82f4695f7c971281d8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a78eb30ecc26e9c9c7585c39dc89ccf2') in 0.0372696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.832870 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR/Prefab
+  artifactKey: Guid(98c69a2a3cacf3346bb7cd74f0320fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR/Prefab using Guid(98c69a2a3cacf3346bb7cd74f0320fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0bea878bd12ce3654fe5e6f7d7a544e0') in 0.0007972 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.944677 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR/Prefab/BuildingUtilityDeco
+  artifactKey: Guid(73db9019abc2eaa4e9725de7b6b24dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR/Prefab/BuildingUtilityDeco using Guid(73db9019abc2eaa4e9725de7b6b24dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dac341a7b9356c875b0af3ac04408246') in 0.0008275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033490 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR/Prefab/BuildingUtilityDeco/Bridge06.prefab
+  artifactKey: Guid(b141f81ecc0e321478f808879e9b424d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR/Prefab/BuildingUtilityDeco/Bridge06.prefab using Guid(b141f81ecc0e321478f808879e9b424d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56b9baad2e2358eb02210090b311222d') in 5.3148851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR/Prefab/GroundPadding/GroundPadding06_1.prefab
+  artifactKey: Guid(7b15bc9fdb71bf84eb7033c53e4a9e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR/Prefab/GroundPadding/GroundPadding06_1.prefab using Guid(7b15bc9fdb71bf84eb7033c53e4a9e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a52a3634d9204fb1c8ab2fb17754e166') in 0.0240172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR/Prefab/BuildingUtilityDeco/TreeStump01.prefab
+  artifactKey: Guid(a0adec37576c4c941857686854a52dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR/Prefab/BuildingUtilityDeco/TreeStump01.prefab using Guid(a0adec37576c4c941857686854a52dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b46ccc7a33540482e72951e65e2f229c') in 0.0226349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR/Prefab/BuildingUtilityDeco/Stair01.prefab
+  artifactKey: Guid(b36aa8866ff42fa41b42da9b29c835bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR/Prefab/BuildingUtilityDeco/Stair01.prefab using Guid(b36aa8866ff42fa41b42da9b29c835bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c4319041e47cf81a3cdefe7825b1415') in 0.0209537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR/Prefab/GroundPadding
+  artifactKey: Guid(923b023c6ee71be4c95265f1ef79d135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR/Prefab/GroundPadding using Guid(923b023c6ee71be4c95265f1ef79d135) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20348a2b5d052cd9caf86833ce7ad976') in 0.0007202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR/Prefab/BuildingUtilityDeco/Stair02.prefab
+  artifactKey: Guid(f7e92f5acf601af4cb9723c059ec4575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR/Prefab/BuildingUtilityDeco/Stair02.prefab using Guid(f7e92f5acf601af4cb9723c059ec4575) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6e441b0894a218b07a8bc6e91fce380') in 0.0247262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR/Prefab/LandMass/LM40RND.prefab
+  artifactKey: Guid(5da4a31af277fb04c96c4283c28a77d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR/Prefab/LandMass/LM40RND.prefab using Guid(5da4a31af277fb04c96c4283c28a77d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fc158396b56ea466cf1b020f512bd7e') in 0.0262942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR/Prefab/LandMass/Ocean.prefab
+  artifactKey: Guid(792563562efebe34c9988a3998a08a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR/Prefab/LandMass/Ocean.prefab using Guid(792563562efebe34c9988a3998a08a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '552d25579a835f3a4d49b36da00eef83') in 5.3481925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR/Prefab/RiverRoadLakeFall/RoadE01.prefab
+  artifactKey: Guid(c76dac5aff5973948b558bf1b998302b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR/Prefab/RiverRoadLakeFall/RoadE01.prefab using Guid(c76dac5aff5973948b558bf1b998302b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4f357653a51a56ef53c1bf671b7db01') in 0.0229861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR/Prefab/RiverRoadLakeFall/RoadD02.prefab
+  artifactKey: Guid(38ed11ff41364164cac9b39ac5964f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR/Prefab/RiverRoadLakeFall/RoadD02.prefab using Guid(38ed11ff41364164cac9b39ac5964f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55d8e413d18f4896a230f7c65f10b5bc') in 0.0235537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR/Prefab/RiverRoadLakeFall/RoadA02.prefab
+  artifactKey: Guid(4d2585f86aef63f4eb2ac40d32852cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR/Prefab/RiverRoadLakeFall/RoadA02.prefab using Guid(4d2585f86aef63f4eb2ac40d32852cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c94ac1e2af665cf48e0a62f1851441f') in 0.0227307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR/Prefab/RiverRoadLakeFall/RoadD01.prefab
+  artifactKey: Guid(a4f3f2df26b4d4c45bcce93c772ea156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR/Prefab/RiverRoadLakeFall/RoadD01.prefab using Guid(a4f3f2df26b4d4c45bcce93c772ea156) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '445f61d2753b51cff4642a7becfda9d7') in 0.0027073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR/Prefab/RiverRoadLakeFall/RoadC01.prefab
+  artifactKey: Guid(5687b72d6aec04c4eb75fadba2cefe3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR/Prefab/RiverRoadLakeFall/RoadC01.prefab using Guid(5687b72d6aec04c4eb75fadba2cefe3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dadee53c56f2707ec76452d0f1686d8f') in 0.0284297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.167234 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR/Prefab/Rock
+  artifactKey: Guid(beef5f604c5c46d429b4c85053ec438d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR/Prefab/Rock using Guid(beef5f604c5c46d429b4c85053ec438d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1d57b23e06dd534afb6d13b64cee255') in 0.0011779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019561 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR/Prefab/Rock/Cobble01.prefab
+  artifactKey: Guid(d30a5034038eb324a9d7878b84f50184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR/Prefab/Rock/Cobble01.prefab using Guid(d30a5034038eb324a9d7878b84f50184) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91accddc9457e2b8aa8d411f7a9b2fc3') in 0.021665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR/Prefab/Rock/Cobble06.prefab
+  artifactKey: Guid(c8a972a3290c3fe41bf04b529f7f73dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR/Prefab/Rock/Cobble06.prefab using Guid(c8a972a3290c3fe41bf04b529f7f73dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25073617ebdaffbeba5db2aa47da0bd3') in 0.0212402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR/Prefab/Rock/Cobble03.prefab
+  artifactKey: Guid(780d5ee3450b092408f1e19e2693461b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR/Prefab/Rock/Cobble03.prefab using Guid(780d5ee3450b092408f1e19e2693461b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bfb2e3612fc8d5e36d92f33779545d9') in 0.0262807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR/Prefab/Rock/Rock01.prefab
+  artifactKey: Guid(a02f4b8afd8e9af4d839851c9c7e24e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR/Prefab/Rock/Rock01.prefab using Guid(a02f4b8afd8e9af4d839851c9c7e24e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8118482494496763a0835c95e1705509') in 0.0207149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR/Prefab/Rock/Rock04.prefab
+  artifactKey: Guid(41e7419f7d451bf499c81662ce079949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR/Prefab/Rock/Rock04.prefab using Guid(41e7419f7d451bf499c81662ce079949) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f5df02cb9eed571e1c5ed1deb12b7b1') in 0.0217557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR/Prefab/Rock/RockCliff05.prefab
+  artifactKey: Guid(135b122a307315242b9e5fb6c2262e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR/Prefab/Rock/RockCliff05.prefab using Guid(135b122a307315242b9e5fb6c2262e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78f7a7ab1c2a5165ae916e2b49a206db') in 0.02193 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR/Prefab/Rock/Cobble04.prefab
+  artifactKey: Guid(5e4bf01dd7fa0654c80551ed5dd2a522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR/Prefab/Rock/Cobble04.prefab using Guid(5e4bf01dd7fa0654c80551ed5dd2a522) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2186601e9698f826b50b54c52f553b7') in 0.0260314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR/Prefab/Rock/Cobble02.prefab
+  artifactKey: Guid(af9b9034a74c71e43aef7d475b156981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR/Prefab/Rock/Cobble02.prefab using Guid(af9b9034a74c71e43aef7d475b156981) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91513c7ac42397f7a2d58762c92c3288') in 0.0225428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR/Prefab/Rock/Cobble05.prefab
+  artifactKey: Guid(e7bcd806d53514149b0036f83ed84409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR/Prefab/Rock/Cobble05.prefab using Guid(e7bcd806d53514149b0036f83ed84409) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c107ff5a8e347649d554e825e5db1ba') in 0.0230086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR/Prefab/Rock/RockCliff06.prefab
+  artifactKey: Guid(ab80240f6a03a334fab4b09b2fa6f1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR/Prefab/Rock/RockCliff06.prefab using Guid(ab80240f6a03a334fab4b09b2fa6f1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57f54e72d9e9b058e91bffe4275f6e7b') in 0.0251719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR/Prefab/Rock/Rock06_1.prefab
+  artifactKey: Guid(359c40097c23d8a4ca5236d29e692faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR/Prefab/Rock/Rock06_1.prefab using Guid(359c40097c23d8a4ca5236d29e692faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d013e427e7f230a3fa0d7c5e8f9d823') in 0.0219945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR/Prefab/Rock/Rock03_1.prefab
+  artifactKey: Guid(ca1bb55a188cd8e4c96e36f5692dd66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR/Prefab/Rock/Rock03_1.prefab using Guid(ca1bb55a188cd8e4c96e36f5692dd66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b6a6b5b128f5898d839f8b7536089ee') in 0.025262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.473927 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR/Prefab/TreePlants
+  artifactKey: Guid(3b01b15b386007b4b8d78124743c1727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR/Prefab/TreePlants using Guid(3b01b15b386007b4b8d78124743c1727) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0ee1147cc7609705728699fa2a3adb9') in 0.0010103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051984 seconds.
+  path: Assets/RPG Tiny Fantasy Forest PBR/Prefab/TreePlants/Flower01.prefab
+  artifactKey: Guid(473e58a45cf2c5b46a6172709dec44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Fantasy Forest PBR/Prefab/TreePlants/Flower01.prefab using Guid(473e58a45cf2c5b46a6172709dec44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7357a7b3157558b4df120c26d2a302c9') in 5.8691491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
